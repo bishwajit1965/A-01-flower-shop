@@ -115,4 +115,84 @@ body {
 /* Commissioned sales section styles */
 .commissioned-sales-section {
   background-color: #fef6f8;
+  padding: 50px 240px;
+}
+.section-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+.sales-containers-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0px 90px;
+}
+.colored-text {
+  color: #e75e7b;
+}
+
+.commissioned-sales-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Instagram section styles */
+.instagram-section {
+  padding: 50px 240px;
+}
+.instagram-header {
+  text-align: center;
+}
+.instagram-flowers-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.instagram-box-images {
+  width: 100%;
+  height: auto;
+}
+
+/* Subscription section styles */
+.subscription-section {
+  padding: 50px 240px;
+}
+.subscription-box {
+  background-image: url("../images/Rectangle 9.png");
+  min-height: 250px;
+  border-radius: 5px;
+}
+.subscription-content-wrapper {
+  padding: 60px 100px;
+}
+.subscription-header {
+  text-align: center;
+}
+.form-container {
+  text-align: center;
+}
+.input-field {
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  width: 50%;
+}
+
+/* Footer section styles */
+footer {
+  background-color: #111010;
+  min-height: 200px;
+  margin: 0px 240px;
+}
+.footer-content-box {
+  padding: 50px;
+  text-align: center;
+}
+.white-text {
+  color: #fff;
+}
+.paragraph-width {
+  width: 50%;
+  margin: 15px auto;
 }
