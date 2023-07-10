@@ -34,6 +34,13 @@ body {
   color: #fff;
   border: none;
 }
+.btn-primary:hover {
+  background-color: #de0c39;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
 .header-image {
   width: 100%;
   height: auto;
@@ -42,7 +49,6 @@ body {
 /* Featured flowers section styles */
 .featured-flowers-section {
   padding: 120px 240px 50px 240px;
-  /* background-color: red; */
 }
 .featured-flowers-header {
   text-align: center;
@@ -84,7 +90,6 @@ body {
 .flower-delivery-section {
   padding: 50px 240px;
   margin: auto;
-  /* background-color: green; */
 }
 .image-box-container {
   background-color: #f4f4f4;
@@ -160,8 +165,9 @@ body {
 }
 .subscription-box {
   background-image: url("../images/Rectangle 9.png");
-  min-height: 250px;
   border-radius: 5px;
+  background-size: cover;
+  background-position: center;
 }
 .subscription-content-wrapper {
   padding: 60px 100px;
