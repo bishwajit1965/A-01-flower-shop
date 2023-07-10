@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+/* Header styles */
+.header {
+  background-color: #fceef1;
+  padding: 50px 240px 0px 240px;
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  align-items: center;
+}
+.title {
+  font-size: 40px;
+  font-weight: 800;
+}
+.description {
+  font-size: 13px;
+  margin: 20px 0px;
+}
+.description-width {
+  width: 70%;
+}
+.btn-primary {
+  background-color: #e55473;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Featured flowers section styles */
+.featured-flowers-section {
+  padding: 120px 240px 50px 240px;
+  /* background-color: red; */
+}
+.featured-flowers-header {
+  text-align: center;
+}
+.featured-flowers-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.flower-box-one {
+  background-color: #f2dee7;
+  border-radius: 50% 50% 0% 0%;
+  padding: 40px 40px 0px 40px;
+}
+.flower-box-two {
+  background-color: #d9eff1;
+  border-radius: 50% 50% 0% 0%;
+  padding: 40px 40px 0px 40px;
+}
+.flower-box-three {
+  background-color: #e3ebdb;
+  border-radius: 50% 50% 0% 0%;
+  padding: 40px 40px 0px 40px;
+}
+.box-images {
+  width: 100%;
+  height: auto;
+}
+.bottom-caption {
+  display: flex;
+  justify-content: space-between;
+}
+.caption-text-box {
+  margin: auto;
+  margin-top: 5px;
+}
+
+/* Flower delivery section styles */
+.flower-delivery-section {
+  padding: 50px 240px;
+  margin: auto;
+  /* background-color: green; */
+}
+.image-box-container {
+  background-color: #f4f4f4;
+  padding: 30px 50px;
+  border-radius: 5px;
+}
+.boxes-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 0px 75px;
+}
+.delivery-images {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.image-cations {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.caption-boxes {
+  margin: auto;
+  font-size: 12px;
+}
+
+/* Commissioned sales section styles */
+.commissioned-sales-section {
+  background-color: #fef6f8;
+}
