@@ -189,11 +189,11 @@ nav {
 .instagram-header {
   text-align: center;
 }
-/* .instagram-flowers-boxes {
+.instagram-flowers-boxes {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-} */
+}
 .instagram-box-images {
   width: 100%;
   height: auto;
