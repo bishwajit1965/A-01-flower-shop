@@ -16,6 +16,32 @@ body {
   gap: 90px;
   align-items: center;
 }
+nav {
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  background-color: #a5061a;
+  padding: 20px 240px;
+  color: #fff;
+}
+.brand-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.link-items > li {
+  list-style: none;
+}
+.link-items > li > a {
+  color: #fff;
+  text-decoration: none;
+}
 .section-header {
   text-align: center;
 }
@@ -159,11 +185,11 @@ body {
 .instagram-header {
   text-align: center;
 }
-.instagram-flowers-boxes {
+/* .instagram-flowers-boxes {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-}
+} */
 .instagram-box-images {
   width: 100%;
   height: auto;
