@@ -269,7 +269,7 @@ legend {
 footer {
   background-color: #111010;
   min-height: 200px;
-  margin: 0px 240px;
+  /* margin: 0px 240px; */
 }
 .footer-content-box {
   padding: 50px;
