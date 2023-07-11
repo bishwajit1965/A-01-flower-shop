@@ -16,6 +16,12 @@ body {
   gap: 90px;
   align-items: center;
 }
+.section-header {
+  text-align: center;
+}
+.text-box {
+  width: 100%;
+}
 .title {
   font-size: 40px;
   font-weight: 800;
@@ -33,6 +39,7 @@ body {
   border-radius: 5px;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .btn-primary:hover {
   background-color: #de0c39;
@@ -40,6 +47,9 @@ body {
   border-radius: 5px;
   color: #fff;
   border: none;
+}
+.image-box {
+  width: 100%;
 }
 .header-image {
   width: 100%;
@@ -157,6 +167,46 @@ body {
 .instagram-box-images {
   width: 100%;
   height: auto;
+  border-radius: 5px;
+}
+
+/* Testimonials SEction styles */
+.testimonials-section {
+  margin: 0px 240px;
+}
+.testimonials-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.testimonial-box {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.quote {
+  width: 25px;
+  height: 25px;
+}
+.subscriber {
+  font-size: 13px;
+  text-align: right;
+  font-weight: 800;
+  color: #666;
+}
+fieldset {
+  border-radius: 8px;
+  padding: 10px;
+}
+legend {
+  font-weight: bold;
+  color: #666;
+  padding: 0px 5px;
+}
+.data-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Subscription section styles */
@@ -201,4 +251,11 @@ footer {
 .paragraph-width {
   width: 50%;
   margin: 15px auto;
+}
+.social-links {
+  color: #ddd;
+  font-size: 25px;
+}
+.social-links i {
+  margin: 10px 10px;
 }
